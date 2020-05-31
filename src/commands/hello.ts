@@ -20,10 +20,9 @@ hello world from ./src/hello.ts!
   static args = [{name: 'file'}]
 
   async run() {
-    debugger;
     const {args, flags} = this.parse(Hello)
 
-    const name = flags.name ?? 'world1'
+    const name = flags.name ?? 'world'
     this.log(`hello ${name} from ./src/commands/hello.ts`)
     if (args.file && flags.force) {
       this.log(`you input --force and --file: ${args.file}`)

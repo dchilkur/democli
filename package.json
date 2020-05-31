@@ -1,6 +1,6 @@
 {
   "name": "democli",
-  "description": "demo of oclif cli",
+  "description": "Nice demo of oclif cli",
   "version": "0.0.0",
   "author": "Dinesh Chilkuri",
   "bin": {
@@ -11,15 +11,21 @@
     "@oclif/command": "^1",
     "@oclif/config": "^1",
     "@oclif/plugin-help": "^3",
+    "jest": "^26.0.1",
+    "jest-diff": "^26.0.1",
     "tslib": "^1"
   },
   "devDependencies": {
     "@oclif/dev-cli": "^1",
+    "@oclif/test": "^1.2.6",
+    "@types/jest": "^25.2.3",
     "@types/node": "^10",
+    "chai": "^4.2.0",
     "eslint": "^5.13",
     "eslint-config-oclif": "^3.1",
     "eslint-config-oclif-typescript": "^0.1",
     "globby": "^10",
+    "ts-jest": "^26.1.0",
     "ts-node": "^8",
     "typescript": "^3.3"
   },
