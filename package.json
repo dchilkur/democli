@@ -11,6 +11,7 @@
     "@oclif/command": "^1",
     "@oclif/config": "^1",
     "@oclif/plugin-help": "^3",
+    "enquirer": "^2.3.5",
     "tslib": "^1"
   },
   "devDependencies": {
