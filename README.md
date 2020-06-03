@@ -28,8 +28,25 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
+* [`democli deploy [FILE]`](#democli-deploy-file)
 * [`democli hello [FILE]`](#democli-hello-file)
 * [`democli help [COMMAND]`](#democli-help-command)
+
+## `democli deploy [FILE]`
+
+describe the command here
+
+```
+USAGE
+  $ democli deploy [FILE]
+
+OPTIONS
+  -f, --force
+  -h, --help       show CLI help
+  -n, --name=name  name to print
+```
+
+_See code: [src/commands/deploy.ts](https://github.com/dchilkur/democli/blob/v0.0.0/src/commands/deploy.ts)_
 
 ## `democli hello [FILE]`
 
@@ -41,8 +58,9 @@ USAGE
 
 OPTIONS
   -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
+  -h, --help               show CLI help
+  -l, --language=language  [default: spanish] language to greet in
+  -n, --name=name          name to print
 
 EXAMPLE
   $ democli hello
