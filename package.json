@@ -11,8 +11,6 @@
     "@oclif/command": "^1",
     "@oclif/config": "^1",
     "@oclif/plugin-help": "^3",
-    "jest": "^26.0.1",
-    "jest-diff": "^26.0.1",
     "tslib": "^1"
   },
   "devDependencies": {
@@ -25,6 +23,8 @@
     "eslint-config-oclif": "^3.1",
     "eslint-config-oclif-typescript": "^0.1",
     "globby": "^10",
+    "jest": "^26.0.1",
+    "jest-diff": "^26.0.1",
     "ts-jest": "^26.1.0",
     "ts-node": "^8",
     "typescript": "^3.3"
