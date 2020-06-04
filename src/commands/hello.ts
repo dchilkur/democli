@@ -27,7 +27,6 @@ hello world from ./src/hello.ts!
     const {args, flags} = this.parse(Hello)
 
     const name = flags.name ?? 'world'
-    this.log(`${flags.language}`)
     if (flags.language === 'english') {
       this.log(`hello ${name} from ./src/commands/hello.ts`)
     } else {
