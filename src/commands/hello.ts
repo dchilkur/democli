@@ -25,7 +25,6 @@ hello world from ./src/hello.ts!
 
   async run() {
     const {args, flags} = this.parse(Hello)
-    this.log(args)
 
     const name = flags.name ?? 'world'
     this.log(`${flags.language}`)
